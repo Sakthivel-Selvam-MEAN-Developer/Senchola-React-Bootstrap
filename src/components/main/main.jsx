@@ -42,10 +42,10 @@ const Main = () => {
                             </div>
                         ))
                     ) : (
-                        <p>Loading...</p>
+                        <p className='text-center'>Loading...</p>
                     )
                 ) : (
-                    <p>Error: Data not Fetched</p>
+                    <p className='text-center'>Error: Data not Fetched</p>
                 )}
             </div>
         </div>
